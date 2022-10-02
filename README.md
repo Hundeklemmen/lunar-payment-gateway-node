@@ -9,6 +9,8 @@ npm i lunar-payments --save
 ## Example
 ```ts
 import { LunarPaymentClient } from "lunar-payments";
+// or
+const { LunarPaymentClient } = require("lunar-payments").default;
 
 let lunarPayment = new LunarPaymentClient({
     appKey: "",

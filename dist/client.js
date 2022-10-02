@@ -24,10 +24,8 @@ class LunarPaymentClient {
         const headers = new undici_1.Headers((_a = options.headers) !== null && _a !== void 0 ? _a : {});
         headers.append("Authorization", `Basic ${Buffer.from(":" + this.appKey).toString("base64")}`);
         options.headers = headers;
-        console.log("Request", this.base + endpoint, options);
         const result = await (0, undici_1.fetch)(this.base + endpoint, options);
         let data = await result.json();
-        console.log("Data");
         return data;
     }
     /*

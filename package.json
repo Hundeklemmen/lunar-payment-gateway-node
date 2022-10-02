@@ -1,7 +1,7 @@
 {
   "name": "lunar-payments",
   "author": "Alexander Møller <alexander@stacket.dk> (https://hundeklemmen.com/)",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "3rd party node.js api client for Lunar payment gateway https://lunar.app/",
   "main": "dist/index.js",
   "scripts": {

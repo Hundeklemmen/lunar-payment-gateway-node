@@ -39,11 +39,9 @@ export class LunarPaymentClient implements LunarPaymentClientOptions {
         headers.append("Authorization", `Basic ${Buffer.from(":"+this.appKey).toString("base64")}`)
         options.headers = headers;
 
-        console.log("Request", this.base + endpoint, options)
         const result = await fetch(this.base + endpoint, options);
         let data = await result.json() as Promise<Response>;
 
-        console.log("Data")
         return data;
     }
 
