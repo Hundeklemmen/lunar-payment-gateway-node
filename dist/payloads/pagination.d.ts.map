@@ -1,0 +1,1 @@
+{"version":3,"file":"pagination.d.ts","sourceRoot":"","sources":["../../src/payloads/pagination.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,iBAAiB;IAC9B,KAAK,EAAE,MAAM,CAAC;IACd,KAAK,CAAC,EAAE,IAAI,GAAG,MAAM,CAAC;IACtB,MAAM,CAAC,EAAE,IAAI,GAAG,MAAM,CAAC;CAC1B"}
