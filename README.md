@@ -40,7 +40,7 @@ console.log("lines", lines)
 
 
 ### Where to find appKey?
-You can find the appKey in your Lunar busness account dashboard. Go to Online Payments -> Complete your registration -> App Key
+You can find the appKey in your Lunar business account dashboard. Go to Online Payments -> Complete your registration -> App Key
 
 
 ### Where to find merchantId?
